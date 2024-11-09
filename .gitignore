@@ -1,0 +1,41 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+
+# Crash log files
+crash.log
+
+# Terraform variable files
+*.tfvars
+*.tfvars.json
+
+# .terraform directories
+.terraform/
+
+# Override files for local use
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI configuration files
+.terraformrc
+terraform.rc
+
+# Sensitive output files
+*.tfplan
+*.zip
+*.tar.gz
+
+# Ignore metadata files produced by MacOS
+.DS_Store
+
+# Ignore metadata files produced by Windows
+Thumbs.db
+
+# Ignore archive and log files
+*.log
+*.bak
+*.tmp
+
+*.lock.hcl
